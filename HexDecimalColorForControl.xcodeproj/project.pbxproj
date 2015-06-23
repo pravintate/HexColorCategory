@@ -14,6 +14,7 @@
 		94D902531B398F7300DC4470 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D902521B398F7300DC4470 /* Images.xcassets */; };
 		94D902561B398F7300DC4470 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94D902541B398F7300DC4470 /* LaunchScreen.xib */; };
 		94D902621B398F7400DC4470 /* HexDecimalColorForControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D902611B398F7400DC4470 /* HexDecimalColorForControlTests.m */; };
+		94D902701B39907D00DC4470 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D9026F1B39907D00DC4470 /* UIColor+HexColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		94D9025B1B398F7400DC4470 /* HexDecimalColorForControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexDecimalColorForControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D902601B398F7400DC4470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94D902611B398F7400DC4470 /* HexDecimalColorForControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HexDecimalColorForControlTests.m; sourceTree = "<group>"; };
+		94D9026E1B39907D00DC4470 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexColor.h"; path = "HexCategoryClass/UIColor+HexColor.h"; sourceTree = "<group>"; };
+		94D9026F1B39907D00DC4470 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexColor.m"; path = "HexCategoryClass/UIColor+HexColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				94D902521B398F7300DC4470 /* Images.xcassets */,
 				94D902541B398F7300DC4470 /* LaunchScreen.xib */,
 				94D902451B398F7300DC4470 /* Supporting Files */,
+				94D9026E1B39907D00DC4470 /* UIColor+HexColor.h */,
+				94D9026F1B39907D00DC4470 /* UIColor+HexColor.m */,
 			);
 			path = HexDecimalColorForControl;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D9024E1B398F7300DC4470 /* ViewController.m in Sources */,
+				94D902701B39907D00DC4470 /* UIColor+HexColor.m in Sources */,
 				94D9024B1B398F7300DC4470 /* AppDelegate.m in Sources */,
 				94D902481B398F7300DC4470 /* main.m in Sources */,
 			);
